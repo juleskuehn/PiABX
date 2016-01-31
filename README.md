@@ -5,4 +5,4 @@ Intended for use with the Raspberry Pi, but can be used on any Unix system.
 
 - Install with `npm install`
 - Run with `sh startup.sh`
-- Access web interface at `[yourip]:3000`
+- Access web interface at `[YourIP]:3000`
