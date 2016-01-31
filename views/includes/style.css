@@ -1,0 +1,42 @@
+body {
+	font-family: sans-serif;
+}
+
+div#switches button,
+div#trialInfo button {
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+    width:5rem;
+    height:5rem;
+    margin-right: 1rem;
+    border-radius: .2rem;
+    font-size:3rem;
+}
+
+div#switches button:hover,
+div#trialInfo button:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+
+div#switches button.active,
+div#trialInfo button.active {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+	border:solid #666 .2rem;
+    font-weight:bold;
+}
+
+div#trialInfo {
+	padding-top:1rem;
+}
+
+div#trialInfo button {
+	height: auto;
+	font-size: 1rem;
+	color: #000;
+}

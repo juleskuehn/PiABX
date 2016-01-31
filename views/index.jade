@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    title AB (preference) test
+    include includes/assets.jade
+  body
+    include includes/header.jade
+    h1 AB (preference) test
+
+    div#switches
+      button#switchA.active A
+      button#switchB B
+
+    div#trialInfo
+      button#preferA Prefer A
+      button#preferB Prefer B
+
+      p#trialNumber Trial 1
+      p
+        button#computeResults Results
+        button#resetTest Reset
+
+    p#results
