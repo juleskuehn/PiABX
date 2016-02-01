@@ -44,6 +44,12 @@ var trialResults = [];
 trialInit();
 
 function nextTrial() {
+  $('#switchA,#switchB,#switchX,#switchY').removeClass('active');
+  if (path==='/xy') {
+    $('#switchX').addClass('active');
+  } else {
+    $('#switchA').addClass('active');
+  }
   if (trialResults.length>=25) {
    $('p#trialNumber').html('Completed maximum (25) trials'); 
    $('#computeResults').click();   
